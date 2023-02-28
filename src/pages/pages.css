@@ -1,0 +1,170 @@
+/* Single Pages */
+
+#blog {
+    height: 200vh auto;
+}
+#blog h2{
+    margin-bottom: 3rem;
+}
+.RecentsColumn .ReProfile{
+    width: 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+form h5{
+    text-align: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.form-group input[type="text"]{
+    height: 40px;
+    border: 1px solid gray;
+    padding: 16px;
+}
+.form-group input[type="submit"]{
+    height: 40px;
+    border: 1px solid gray;
+    background-color: rgb(35, 59, 51);
+    color: white;
+    margin-top: 1rem;
+}
+.button{
+    height: 40px;
+    border: 1px solid gray;
+    background-color: rgb(35, 59, 51);
+    color: white;
+    margin-top: 1rem;
+    width: 80px;
+}
+
+.form-group textarea{
+    border: 1px solid gray;
+    height: 70px;
+    padding: 16px;
+}
+.form-group label{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* ============================== Login Form ======================= */
+form{
+    display: flex;
+    flex-direction: column;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+.formGroup input[type="text"],[type="password"],[type="email"],[type="file"]{
+    height: 50px;
+    line-height: 45px;
+    padding: 9px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+.formGroup textarea{
+    height: 100px;
+    line-height: 45px;
+    padding: 9px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+.formGroup input[type="submit"]{
+    height: 50px;
+    width: 100%;
+    line-height: 45px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition:all 2s ease;
+}
+/* a{
+    width: 100%;
+} */
+.formGroup input[type="submit"]:hover{
+    height: 50px;
+    line-height: 45px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: aliceblue;
+    margin-bottom: 0.6rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: rgb(11, 67, 67);
+}
+.formGroup label{
+    font-weight: 800;
+    font-size: 1rem;
+}
+.formLinks{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.7rem;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.formLinks a:nth-child(1){
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.formLinks a:nth-child(2){
+    color: rgb(0, 30, 128);
+    font-size: 1.5rem;
+    font-family: 600;
+}
+
+
+/* ========================= Recents Media ============================== */
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: var(--width-md);
+        margin: 0 auto;
+    }
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: var(--width-sm);
+        margin: 0 auto;
+    }
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+
+
+}

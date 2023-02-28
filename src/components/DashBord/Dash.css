@@ -1,0 +1,485 @@
+#Dashbord h2{
+    margin-bottom: 3rem;
+}
+.img{
+    border-radius: 50%; /* Make the image circular */
+  /* width: 100px; Set the width of the image */
+  /* height: 100px; Set the height of the image */
+  object-fit: cover; /* Ensure the image fills the avatar area */
+  object-position: center; /* Position the image in the center */
+}
+.blogContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 120vh;
+    /* background-color: antiquewhite; */
+    border-radius: 0.5rem;
+    padding:  1rem;
+    /* margin-bottom: 100rem; */
+}
+.blogMenu{
+    flex-basis: 30%;
+    border-left: 10px solid gray;
+    background-color: black;
+    border-radius: 0.5rem 0 0 0.5rem;
+    opacity: 0.7;
+}
+.blogMenu ul{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ul a li{
+    display: block;
+    padding: 1rem  1rem;
+    height: 50px;
+    margin-left: 0.1rem;
+    font-size: medium;
+    font-weight: 800;
+    color: rgb(250, 246, 246);
+    transition: all 400ms ease;
+}
+ul a li:hover{
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-size: medium;
+    font-weight: 800;
+    border-left: 0.7px solid white;
+    border-bottom: 0.7px solid white;
+}
+
+.blogContent{
+    flex-basis: 100%;
+    
+}
+.CardsContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+
+}
+.cards1{
+    background-color:rgb(77, 33, 117);
+    height: 280px;
+    width: 100%;
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    /* text-align: center; */
+    /* height: fit-content; */
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.cards1:hover{
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(59, 51, 59);
+    cursor: pointer;
+    border: 1px solid rgb(3, 3, 3);
+    /* text-align: center; */
+    /* height: fit-content; */
+}
+.one{
+    font-size: x-large;
+    /* justify-content: center; */
+    /* background-color: rgb(213, 215, 216); */
+   color: rgb(184, 203, 212);
+   margin-left: 1rem;
+   margin-top: 2rem;
+   
+}
+.cards2{
+    background-color:rgb(119, 19, 119);
+    height: 280px;
+    width: 100%;
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    /* text-align: center; */
+    /* height: fit-content; */
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.cards2:hover{
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(48, 61, 51);
+    cursor: pointer;
+    border: 1px solid rgb(3, 3, 3);
+    /* text-align: center; */
+    /* height: fit-content; */
+}
+.sec{
+    font-size: x-large;
+    /* justify-content: center; */
+    /* background-color: rgb(213, 215, 216); */
+   color: rgb(184, 203, 212);
+   margin-left: 1rem;
+   margin-top: 2rem;
+   
+}
+.cards3{
+    background-color:green;
+    height: 280px;
+    width: 100%;
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    /* text-align: center; */
+    /* height: fit-content; */
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+     
+}
+.cards3:hover{
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(48, 61, 51);
+    cursor: pointer;
+    border: 1px solid rgb(3, 3, 3);
+    /* text-align: center; */
+    /* height: fit-content; */
+}
+.first{
+    font-size: x-large;
+    /* justify-content: center; */
+    /* background-color: rgb(213, 215, 216); */
+   color: rgb(184, 203, 212);
+   margin-left: 2rem;
+   margin-top: 2rem;
+   
+}
+.firsts{
+    font-size: x-large;
+    color: rgb(182, 202, 212);
+    margin-left: 1rem;
+}
+.cont{
+    /* margin-bottom: 3rem; */
+}
+.small{
+    display: flex;
+    flex-direction: row;
+    /* gap: 7rem; */
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    color: rgb(182, 204, 212);
+}
+.bigcard{
+    height: 15px;
+    width: 220px;
+    border-radius: 0.4rem;
+    border: 1px solid black;
+    background-color:rgb(10, 10, 34);
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+.insidecard{
+    height: 15px;
+    width: 120px;
+    border-radius: 0.4rem;
+    border: 1px solid black;
+    background-color:rgb(184, 210, 223); 
+}
+.avatars {
+    /* display: flex;
+    flex-direction: row; */
+    
+
+}
+
+.avatars__item {
+    /* Nagative margin make avatar overlap to previous one */
+    margin-left: -0.25rem;
+    margin-bottom: 2px;
+    margin-left: -2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: -px;
+    /* width: 100px; Set the width of the image */
+    /* height: 100px; Set the height of the image */
+    object-fit: cover; /* Ensure the image fills the avatar area */
+    object-position: center; /* Position the image in the center */
+}
+
+.avatars__image {
+    /* Add a white curve between avatars */
+    box-shadow: 0 0 0 0.25rem #fff;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    width:10px;
+    
+
+    /* Rounded border */
+    border-radius: 9999px;
+    border-radius: 50%; /* Make the image circular */
+   
+    object-fit: cover; /* Ensure the image fills the avatar area */
+    object-position: center; /* Position the image in the center */
+}
+.smallcard{
+    height: 23px;
+    width: 90px;
+    border-radius: 0.9rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 0.25rem;
+    background-color: rgb(184, 201, 209);
+    font-weight: bold;
+    margin-right: -2rem;
+    
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem; 
+    
+ } 
+ .chart{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    /* justify-content: center; */
+ }
+ .kabiri{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+ }
+ .whole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -2rem;
+
+ }
+ .date{
+    margin-left: -2rem;
+    color: rgb(213, 215, 216);
+ }
+ .ico{
+    margin-right: -2rem;
+    color: rgb(213, 215, 216);
+ }
+
+ .cards4{
+    height: 80px;
+    width: 80px;
+    /* border: 1px solid ; */
+    border-radius: 0.9rem;
+    background-color: rgb(233, 242, 250);
+    padding: 0.5rem;
+
+ }
+ 
+ .cards5{
+    height: 80px;
+    width: 80px;
+    /* border:  ; */
+    border-radius: 0.9rem;
+    background-color: rgb(233, 242, 250);
+    padding: 0.5rem;
+    
+
+ }
+ .cards6{
+    height: 80px;
+    width: 80px;
+    /* border:  ; */
+    border-radius: 0.9rem;
+    background-color: rgb(233, 242, 250);
+    padding: 0.5rem;
+    
+
+ }
+ .i{
+    color: rgb(31, 124, 31);
+    margin-left: 1.5rem;
+ }
+ .id{
+    margin-left: 1.5rem;
+ }
+ .ib{
+    color: rgb(126, 45, 126);
+    /* height: 1.5rem; */
+    margin-left: 1.5rem;
+ }
+ .ibc{
+    margin-left: 1.5rem;
+ }
+
+
+
+/* ===========================Managecards========================= */
+.Managecards{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+ }
+.Managecards> :nth-child(1){
+    border-right: 5px solid rgb(15, 6, 6);
+    border-radius: 0 0.5rem 0 0;
+}
+.mcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+.btn{
+    width:90px;
+    height: 40px;
+    cursor: pointer;
+    color: rgb(255, 252, 252);
+    background-color: rgb(44, 44, 204);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+.btn:nth-child(1){
+    background-color: brown;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* ================== create Blog =========================== */
+.blogContent form{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.formGroup input{
+    width: 100%;
+}
+.blogContent h2{
+    text-align: center;
+}
+
+
+/* ========================= Dash Media ============================== */
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: var(--width-md);
+        margin: 0 auto;
+    }
+    .blogContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 100vh;
+        border-radius: 0.5rem;
+        padding:  1rem;
+    }
+    .blogMenu{
+        flex-basis: 100%;
+        border-left: 10px solid gray;
+        background-color: black;
+        border-radius: 0.5rem 0 0 0.5rem;
+        opacity: 0.7;
+    }
+    .CardsContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        margin-bottom: 4rem;
+    
+    }
+    
+    
+    #footer{
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: var(--width-sm);
+        margin: 0 auto;
+    }
+    .blogContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 100vh;
+        border-radius: 0.5rem;
+        padding:  1rem;
+    }
+    .blogMenu{
+        flex-basis: 100%;
+        border-left: 10px solid gray;
+        background-color: black;
+        border-radius: 0.5rem 0 0 0.5rem;
+        opacity: 0.7;
+    }
+    .CardsContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        margin-bottom: 4rem;
+    
+    }
+    .mcontents{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 100%;
+        background-color: gray;
+        gap: 2rem;
+        padding: 1rem 2rem;
+    }
+#Dashbord{
+    height: 200vh;
+    margin-bottom: -2rem;
+}
+}
+
+.blogContent{
+width: 10%;
+/* overflow-x: hidden; */
+}
+.Managecards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    width: 100%;
+margin-bottom: 5rem;
+
+}
+
+
+.mcontents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

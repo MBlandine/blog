@@ -1,0 +1,102 @@
+
+.Recents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+#rec{
+    height:100vh auto;
+    margin-bottom: 4rem;
+    /* background-color: black; */
+}
+#rec h2{
+    margin-bottom: 6rem;
+}
+.RecentsColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+#recents h2{
+    margin-bottom: 3rem;
+}
+
+.RecentsImage img{
+    object-fit: cover;
+    /* aspect-ratio: 1/1; */
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.RecentsContent h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+.RecentsContent small{
+    color: rgb(177, 175, 175);
+}
+.RecentsContent p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(163, 160, 160);
+}
+.RecentProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.ReProfile{
+    width: 10%;
+}
+.ReProfile img{
+    /* width: 10%; */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+  
+   .swiper-pagination-clickable .swiper-pagination-bullet{
+    background: rgb(57, 57, 9);
+    font-size: 3rem;
+    padding: 0.4rem;
+} 
+
+
+/* ========================= Recents Media ============================== */
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: var(--width-md);
+        margin: 0 auto;
+    }
+    .RecentsColumn{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-basis: 100%;
+        object-fit: cover;
+       
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: var(--width-sm);
+        margin: 0 auto;
+    }
+    .RecentsColumn{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-basis: 100% -1;
+        object-fit: cover;
+       
+    }
+
+}
